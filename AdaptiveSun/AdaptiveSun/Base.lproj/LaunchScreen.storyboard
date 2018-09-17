@@ -27,7 +27,33 @@
                             </imageView>
                             <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTk-T9-CsU" userLabel="bottomView">
                                 <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Oy-Z8-ShY" userLabel="labelView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="167.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="cFq-fm-jry">
+                                                <rect key="frame" x="8" y="8" width="359" height="159.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="400"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="cFq-fm-jry" secondAttribute="bottom" id="ALf-IW-ePp"/>
+                                            <constraint firstItem="cFq-fm-jry" firstAttribute="top" secondItem="9Oy-Z8-ShY" secondAttribute="top" constant="8" id="Fub-Yw-nK1"/>
+                                            <constraint firstItem="cFq-fm-jry" firstAttribute="leading" secondItem="9Oy-Z8-ShY" secondAttribute="leading" constant="8" id="N2i-jO-Juy"/>
+                                            <constraint firstAttribute="trailing" secondItem="cFq-fm-jry" secondAttribute="trailing" constant="8" id="Z4t-lM-JeT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="9Oy-Z8-ShY" firstAttribute="top" secondItem="fTk-T9-CsU" secondAttribute="top" id="HfQ-zM-pea"/>
+                                    <constraint firstItem="9Oy-Z8-ShY" firstAttribute="height" secondItem="fTk-T9-CsU" secondAttribute="height" multiplier="0.5" id="sS3-c9-yas"/>
+                                    <constraint firstItem="9Oy-Z8-ShY" firstAttribute="leading" secondItem="fTk-T9-CsU" secondAttribute="leading" id="uex-HV-QoV"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Oy-Z8-ShY" secondAttribute="trailing" id="xW1-ws-W3J"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0CX-Sc-eia" userLabel="topView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
