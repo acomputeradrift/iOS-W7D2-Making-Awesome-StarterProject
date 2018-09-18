@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		AAF66A4C1DA0843300F955C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66A4B1DA0843300F955C9 /* AppDelegate.swift */; };
 		AAF66A4E1DA0843300F955C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66A4D1DA0843300F955C9 /* ViewController.swift */; };
-		AAF66A511DA0843300F955C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF66A4F1DA0843300F955C9 /* Main.storyboard */; };
+		AAF66A511DA0843300F955C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF66A4F1DA0843300F955C9 /* LaunchScreen.storyboard */; };
 		AAF66A531DA0843300F955C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF66A521DA0843300F955C9 /* Assets.xcassets */; };
-		AAF66A561DA0843300F955C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF66A541DA0843300F955C9 /* LaunchScreen.storyboard */; };
+		AAF66A561DA0843300F955C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF66A541DA0843300F955C9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAF66A481DA0843300F955C9 /* AdaptiveSun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveSun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF66A4B1DA0843300F955C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF66A4D1DA0843300F955C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AAF66A501DA0843300F955C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF66A501DA0843300F955C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF66A521DA0843300F955C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AAF66A551DA0843300F955C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF66A551DA0843300F955C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAF66A571DA0843300F955C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +56,9 @@
 			children = (
 				AAF66A4B1DA0843300F955C9 /* AppDelegate.swift */,
 				AAF66A4D1DA0843300F955C9 /* ViewController.swift */,
-				AAF66A4F1DA0843300F955C9 /* Main.storyboard */,
+				AAF66A4F1DA0843300F955C9 /* LaunchScreen.storyboard */,
 				AAF66A521DA0843300F955C9 /* Assets.xcassets */,
-				AAF66A541DA0843300F955C9 /* LaunchScreen.storyboard */,
+				AAF66A541DA0843300F955C9 /* Main.storyboard */,
 				AAF66A571DA0843300F955C9 /* Info.plist */,
 			);
 			path = AdaptiveSun;
@@ -123,9 +123,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF66A561DA0843300F955C9 /* LaunchScreen.storyboard in Resources */,
+				AAF66A561DA0843300F955C9 /* Main.storyboard in Resources */,
 				AAF66A531DA0843300F955C9 /* Assets.xcassets in Resources */,
-				AAF66A511DA0843300F955C9 /* Main.storyboard in Resources */,
+				AAF66A511DA0843300F955C9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,20 +144,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AAF66A4F1DA0843300F955C9 /* Main.storyboard */ = {
+		AAF66A4F1DA0843300F955C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AAF66A501DA0843300F955C9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		AAF66A541DA0843300F955C9 /* LaunchScreen.storyboard */ = {
+		AAF66A541DA0843300F955C9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AAF66A551DA0843300F955C9 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +299,7 @@
 				AAF66A5C1DA0843300F955C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

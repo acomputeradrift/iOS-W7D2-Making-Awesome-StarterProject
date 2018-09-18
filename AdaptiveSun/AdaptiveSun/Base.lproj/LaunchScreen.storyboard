@@ -1,100 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="jOO-yr-YP1">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                            </imageView>
-                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTk-T9-CsU" userLabel="bottomView">
-                                <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Oy-Z8-ShY" userLabel="labelView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="167.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="cFq-fm-jry">
-                                                <rect key="frame" x="8" y="8" width="359" height="159.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="400"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="cFq-fm-jry" secondAttribute="bottom" id="ALf-IW-ePp"/>
-                                            <constraint firstItem="cFq-fm-jry" firstAttribute="top" secondItem="9Oy-Z8-ShY" secondAttribute="top" constant="8" id="Fub-Yw-nK1"/>
-                                            <constraint firstItem="cFq-fm-jry" firstAttribute="leading" secondItem="9Oy-Z8-ShY" secondAttribute="leading" constant="8" id="N2i-jO-Juy"/>
-                                            <constraint firstAttribute="trailing" secondItem="cFq-fm-jry" secondAttribute="trailing" constant="8" id="Z4t-lM-JeT"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="9Oy-Z8-ShY" firstAttribute="top" secondItem="fTk-T9-CsU" secondAttribute="top" id="HfQ-zM-pea"/>
-                                    <constraint firstItem="9Oy-Z8-ShY" firstAttribute="height" secondItem="fTk-T9-CsU" secondAttribute="height" multiplier="0.5" id="sS3-c9-yas"/>
-                                    <constraint firstItem="9Oy-Z8-ShY" firstAttribute="leading" secondItem="fTk-T9-CsU" secondAttribute="leading" id="uex-HV-QoV"/>
-                                    <constraint firstAttribute="trailing" secondItem="9Oy-Z8-ShY" secondAttribute="trailing" id="xW1-ws-W3J"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0CX-Sc-eia" userLabel="topView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="arg-I2-8UK">
-                                        <rect key="frame" x="56" y="49.5" width="262.5" height="233"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="arg-I2-8UK" firstAttribute="centerX" secondItem="0CX-Sc-eia" secondAttribute="centerX" id="AaF-8v-Rqx"/>
-                                    <constraint firstItem="arg-I2-8UK" firstAttribute="height" secondItem="0CX-Sc-eia" secondAttribute="height" multiplier="0.7" id="FgJ-cR-h30"/>
-                                    <constraint firstItem="arg-I2-8UK" firstAttribute="width" secondItem="0CX-Sc-eia" secondAttribute="width" multiplier="0.7" id="YAO-qN-hC1"/>
-                                    <constraint firstItem="arg-I2-8UK" firstAttribute="centerY" secondItem="0CX-Sc-eia" secondAttribute="centerY" id="kxU-f6-jIm"/>
-                                </constraints>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="jOO-yr-YP1" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="07A-Qp-pvc"/>
-                            <constraint firstItem="0CX-Sc-eia" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0Mx-JL-RZH"/>
-                            <constraint firstItem="fTk-T9-CsU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="FRO-jq-bGy"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="fTk-T9-CsU" secondAttribute="bottom" id="Goq-Xe-Rw0"/>
-                            <constraint firstAttribute="trailing" secondItem="jOO-yr-YP1" secondAttribute="trailing" id="Vye-Nu-BBO"/>
-                            <constraint firstItem="fTk-T9-CsU" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.5" id="Yr4-Ee-QH9"/>
-                            <constraint firstItem="jOO-yr-YP1" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="f7U-44-UgN"/>
-                            <constraint firstItem="0CX-Sc-eia" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fA4-oa-Enp"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jOO-yr-YP1" secondAttribute="bottom" id="gkb-Ew-zSB"/>
-                            <constraint firstAttribute="trailing" secondItem="0CX-Sc-eia" secondAttribute="trailing" id="hvP-17-vhh"/>
-                            <constraint firstItem="0CX-Sc-eia" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.5" id="pip-aN-zPh"/>
-                            <constraint firstAttribute="trailing" secondItem="fTk-T9-CsU" secondAttribute="trailing" id="sg6-SQ-mUi"/>
-                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Sun" width="518" height="505"/>
-        <image name="background" width="1280" height="480"/>
-    </resources>
 </document>
