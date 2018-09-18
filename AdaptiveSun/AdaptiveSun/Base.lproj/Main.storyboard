@@ -56,7 +56,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmE-t9-0IV" userLabel="Forward">
                                                 <rect key="frame" x="261.5" y="28.5" width="105.5" height="105.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" backgroundImage="Forward"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXp-BD-zHg" userLabel="Back">
                                                 <rect key="frame" x="8" y="28.5" width="105.5" height="105.5"/>
@@ -131,6 +131,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Forward" width="115" height="115"/>
         <image name="Sun" width="518" height="505"/>
         <image name="background" width="1280" height="480"/>
     </resources>
